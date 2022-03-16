@@ -32,6 +32,10 @@ call plug#begin(stdpath('data') . 'vimplug')
     Plug 'tomtom/tcomment_vim'
 
     Plug 'mhinz/vim-startify'
+
+    Plug 'ryanoasis/vim-devicons'
+    
+    Plug 'preservim/nerdcommenter'
 call plug#end()
 
 
@@ -63,6 +67,7 @@ set cc=100                  " set an 100 column border for good file type
 set clipboard=unnamedplus   " using system clipboard
 set cursorline              " highlight current cursorline
 set ttyfast                 " speed up scrolling in Vim
+set encoding=UTF-8          " set encoding to utf-8
 
 filetype plugin indent on   " allow auto indenting depending on file type
 filetype plugin on
